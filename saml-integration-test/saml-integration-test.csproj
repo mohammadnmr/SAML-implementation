@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>saml_integration_test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Rsk.IdentityServer4.Saml" Version="5.0.0" />
+    <PackageReference Include="Rsk.Saml.IdentityServer4" Version="5.3.1" />
+    <PackageReference Include="Rsk.Saml.IdentityServer4.EntityFramework" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
